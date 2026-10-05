@@ -23,9 +23,6 @@ matplotlib
 langfuse
 python-dotenv
 
-# Evaluation
-scikit-learn
-
 # Utils
 tqdm
 requests
