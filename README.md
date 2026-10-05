@@ -39,6 +39,7 @@ NPS-опросы клиентов компании приходят в виде 
 
 ## Архитектура
 
+```
 result_nps.xlsx
 ↓ preprocess.py
 nps_parsed.parquet
@@ -48,6 +49,7 @@ llm_results.parquet
 faiss_index.bin + rag_metadata.parquet
 ↓ dashboard.py (Streamlit)
 Веб-интерфейс на :8501 порту
+```
 
 ### Компоненты
 
