@@ -64,6 +64,7 @@ faiss_index.bin + rag_metadata.parquet
 
 ## Структура проекта
 
+```
 nps-analyzer/
 ├── app/
 │ └── dashboard.py # Streamlit-дашборд
@@ -86,7 +87,7 @@ nps-analyzer/
 ├── requirements.txt
 ├── .env.example
 └── README.md
-
+```
 
 ## Запуск
 
