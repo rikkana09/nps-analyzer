@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.git/
+.gitignore
+.env
+*.log
+reports/
+notebooks/
+private_scripts/
+data/_backup_v1/

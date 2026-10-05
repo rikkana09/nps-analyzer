@@ -1,4 +1,31 @@
-pandas
+# Core
+pandas>=2.0
+numpy<2
 openpyxl
 pyarrow
-numpy
+
+# LLM / embeddings
+ollama
+sentence-transformers
+transformers
+torch
+
+# RAG
+faiss-cpu
+
+# Dashboard
+streamlit
+plotly
+wordcloud
+matplotlib
+
+# Observability
+langfuse
+python-dotenv
+
+# Evaluation
+scikit-learn
+
+# Utils
+tqdm
+requests
