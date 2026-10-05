@@ -140,7 +140,7 @@ LANGFUSE_HOST=https://cloud.langfuse.com
 ### 3. Запуск всего проекта одной командой
 
 ```bash
-docker-compose up --build
+sudo docker-compose build
 ```
 
 **Что произойдёт в одном контейнере:**
@@ -157,7 +157,7 @@ docker-compose up --build
 **Остановить:**
 
 ```bash
-docker-compose down
+sudo docker-compose down
 ```
 
 ### 4. Запуск без Docker (альтернатива)
